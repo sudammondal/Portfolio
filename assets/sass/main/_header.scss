@@ -1,0 +1,134 @@
+.header {
+    padding: 30px 30px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1080;
+    .nav_main {
+        padding-top: 0;
+        padding-bottom: 0;
+        .logo {
+            font-size: 32px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: orange;
+            text-shadow: 3px 0px 2px #ff9000;
+            img {
+                width: 36px;
+            }
+        }
+        .h_contact_info {
+            position: relative;
+            font-size: 12px;
+            font-weight: 500;
+            color: #fff;
+            line-height: 13px;
+            display: inline-block;
+            letter-spacing: 1.3px;
+            margin-left: 25px;
+            a{
+               color: #101010; 
+            }
+            .yourmail {
+                &::before {
+                    position: relative;
+                    top: 3px;
+                    content: "/";
+                    font-family: "FontAwesome";
+                    color: rgba(255, 255, 255, 0.4);
+                    margin-right: 25px;
+                    font-size: 23px;
+                    font-weight: 800;
+
+                    
+                }
+
+            }
+        }
+        .nav_button {
+            border: 0;
+            box-shadow: none;
+            outline: none;
+            padding: 0;
+            margin: 0;
+            width: 25px;
+            position: relative;
+            height: 15px;
+            .bar {
+                width: 100%;
+                height: 2px;
+                background-color: #eb1b2b;
+                position: absolute;
+                right: 0;
+                display: block;
+                transition: all 0.5s;
+                &:nth-child(1) {
+                    top: 0;
+                }
+                &:nth-child(2) {
+                    top: 50%;
+                }
+                &:nth-child(3) {
+                    top: 100%;
+                }
+            }
+            &[aria-expanded="true"]{
+                .bar {
+                    &:nth-child(1) {
+                        top: 50%;
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        opacity: 0;
+                    }
+                    &:nth-child(3) {
+                        top: 50%;
+                        transform: rotate(-45deg);
+                    }
+                }
+
+            }
+
+        }
+        .nav_collapse {
+            .nav_manu {
+                margin-left: auto;
+                .nav-item {
+                    .nav-link {
+                        font-weight: 500; padding: 0px;
+                        line-height: 30px;
+                        position: relative;
+                        letter-spacing: 1.3px;
+                        color: #101010;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        margin: 0 20px;
+                        &::before {
+                            content: "";
+                            width: 4px;
+                            height: 4px;
+                            position: absolute;
+                            border-radius: 50%;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            transition: all 0.2s linear;
+                            background: transparent;
+                            transform: scale(1);
+                           
+                        }
+                        &.active,
+                        &:hover {
+                            &::before {
+                                background: #101010;
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
