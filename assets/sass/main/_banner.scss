@@ -10,7 +10,14 @@
         justify-content: left;
         height: 455px;
         width: 100%;
+        position: relative;
+            .dot_img {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
         .banner_item {
+            z-index: 2;
             .b_hed {
                 font-size: 72px;
                 line-height: 88px;
