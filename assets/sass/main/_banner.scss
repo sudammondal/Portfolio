@@ -31,6 +31,29 @@
                 margin-bottom: 0;
                 color: #fff;
             }
+            .banner_button { 
+                position: absolute;
+                margin-top: 30px;
+                padding: 10px 20px;
+                color: #fff;
+                letter-spacing: 0.05em;
+                border: 2px solid #ffc72ecb;
+                background-image: linear-gradient(30deg,#9c3d35ab 50%, transparent 50%);
+                background-size: 540px;
+                background-repeat: no-repeat;
+                background-position: 0;
+                transition: background 300ms ease-in-out;
+                font-size: 18px;
+                &:hover {
+                    background-position: 100%;
+                    color: #ff9000;
+                    background-color: #ffffff;
+                    transition: .3s ease-in-out;
+                    
+    
+                }
+            }
+            
         }
     }
 }
