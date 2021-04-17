@@ -165,7 +165,7 @@ body {
         font-weight: 400;
         margin-bottom: 0;
         color: #fff; }
-      .banner .main_banner .banner_item .banner_button {
+      .banner .main_banner .banner_item .banner_button a {
         position: absolute;
         margin-top: 30px;
         padding: 10px 20px;
@@ -182,13 +182,13 @@ body {
         -o-transition: background 300ms ease-in-out;
         transition: background 300ms ease-in-out;
         font-size: 18px; }
-        .banner .main_banner .banner_item .banner_button:hover {
-          background-position: 100%;
-          color: #ff9000;
-          background-color: #ffffff;
-          -webkit-transition: .3s ease-in-out;
-          -o-transition: .3s ease-in-out;
-          transition: .3s ease-in-out; }
+      .banner .main_banner .banner_item .banner_button:hover a {
+        background-position: 100%;
+        color: #ff9000;
+        background-color: #ffffff;
+        -webkit-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        transition: .3s ease-in-out; }
 
 .demo {
   padding-top: 112px; }
@@ -215,7 +215,7 @@ body {
         position: absolute;
         bottom: 0;
         left: 0; }
-  .demo .demo_item {
+  .demo .demo_min .demo_item {
     position: relative;
     height: 300px;
     width: 100%;
@@ -229,14 +229,14 @@ body {
     overflow: hidden;
     -webkit-box-shadow: 0 11px 21px #bfc4d4;
     box-shadow: 0 11px 21px #bfc4d4; }
-    .demo .demo_item a {
+    .demo .demo_min .demo_item a {
       display: block; }
-      .demo .demo_item a .demo_img {
+      .demo .demo_min .demo_item a .demo_img {
         width: 100%;
         cursor: pointer;
         vertical-align: middle;
         border-style: none;
-        background-image: url(../image/1-1-min.png);
+        background-image: url(../image/1-1-min.jpg);
         display: inline-block;
         background-position: center 0;
         background-repeat: no-repeat;
@@ -248,24 +248,24 @@ body {
         -webkit-transition: all 5s;
         -o-transition: all 5s;
         transition: all 5s; }
-        .demo .demo_item a .demo_img:hover {
+        .demo .demo_min .demo_item a .demo_img:hover {
           background-position: center 100%; }
-      .demo .demo_item a .astute {
-        background-image: url(../image/demos/astute.png); }
-      .demo .demo_item a .Canvas {
-        background-image: url(../image/demos/canvas.png); }
-      .demo .demo_item a .landrick {
-        background-image: url(../image/demos/landrick.png); }
-      .demo .demo_item a .multicart {
-        background-image: url(../image/demos/Multikart-Fashion.png); }
-  .demo .demo_condation {
+      .demo .demo_min .demo_item a .astute {
+        background-image: url(../image/demos/astute.jpg); }
+      .demo .demo_min .demo_item a .Canvas {
+        background-image: url(../image/demos/canvas.jpg); }
+      .demo .demo_min .demo_item a .landrick {
+        background-image: url(../image/demos/landrick.jpg); }
+      .demo .demo_min .demo_item a .multicart {
+        background-image: url(../image/demos/Multikart-Fashion.jpg); }
+  .demo .demo_min .demo_condation {
     margin: 20px 0;
     margin-bottom: 0;
     margin-top: 1.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block; }
-    .demo .demo_condation a {
+    .demo .demo_min .demo_condation a {
       display: inline-block;
       padding: 0px;
       font-size: 18px;
@@ -278,7 +278,7 @@ body {
       font-weight: 700;
       text-transform: capitalize;
       font-family: "Rubik", sans-serif; }
-      .demo .demo_condation a::before {
+      .demo .demo_min .demo_condation a::before {
         position: absolute;
         content: "";
         bottom: 0;
@@ -290,15 +290,15 @@ body {
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s; }
-      .demo .demo_condation a.active, .demo .demo_condation a:hover {
+      .demo .demo_min .demo_condation a.active, .demo .demo_min .demo_condation a:hover {
         color: #eb1b2b; }
-        .demo .demo_condation a.active::before, .demo .demo_condation a:hover::before {
+        .demo .demo_min .demo_condation a.active::before, .demo .demo_min .demo_condation a:hover::before {
           width: 100%;
           right: 0;
           opacity: 1; }
-    .demo .demo_condation:hover {
+    .demo .demo_min .demo_condation:hover {
       background: transparent; }
-      .demo .demo_condation:hover a {
+      .demo .demo_min .demo_condation:hover a {
         color: #ff9000; }
 
 .demoItem {
@@ -421,22 +421,24 @@ body {
         .footer_main .footer_top .f_hed .lets_link:hover::before {
           background-color: #fff; }
     .footer_main .footer_top .banner_button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      color: #fff;
-      letter-spacing: 0.05em;
-      border: 2px solid #fcc730;
-      background-image: -webkit-linear-gradient(60deg, #ff4c3b 50%, transparent 50%);
-      background-image: -o-linear-gradient(60deg, #ff4c3b 50%, transparent 50%);
-      background-image: linear-gradient(30deg, #ff4c3b 50%, transparent 50%);
-      background-size: 540px;
-      background-repeat: no-repeat;
-      background-position: 0;
-      -webkit-transition: background 300ms ease-in-out;
-      -o-transition: background 300ms ease-in-out;
-      transition: background 300ms ease-in-out;
-      font-size: 18px; }
-      .footer_main .footer_top .banner_button:hover {
+      display: inline-block; }
+      .footer_main .footer_top .banner_button a {
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        letter-spacing: 0.05em;
+        border: 2px solid #fcc730;
+        background-image: -webkit-linear-gradient(60deg, #9c3d35ab 50%, transparent 50%);
+        background-image: -o-linear-gradient(60deg, #9c3d35ab 50%, transparent 50%);
+        background-image: linear-gradient(30deg, #9c3d35ab 50%, transparent 50%);
+        background-size: 540px;
+        background-repeat: no-repeat;
+        background-position: 0;
+        -webkit-transition: background 300ms ease-in-out;
+        -o-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+        font-size: 18px; }
+      .footer_main .footer_top .banner_button:hover a {
         background-position: 100%;
         color: #ff9000;
         background-color: #ffffff;
@@ -467,3 +469,70 @@ body {
           transition: all 0.5s ease; }
         .footer_main .footer_bottom .copy_pra a:hover::before {
           background-color: #fff; }
+
+@media (max-width: 1024px) {
+  .header .nav_main .h_contact_info {
+    margin-left: -10px; }
+  .header .nav_main .h_contact_info .yourmail::before {
+    margin-right: 0; }
+  .header .nav_main .nav_collapse .nav_manu .nav-item .nav-link {
+    margin: 0 17px; } }
+
+@media (max-width: 768px) {
+  header .nav_main .nav_collapse ul {
+    margin: 20px 0;
+    overflow: scroll;
+    height: 150px; }
+  .demo .demo_min {
+    margin-bottom: 30px; } }
+
+@media (max-width: 420px) {
+  .header .nav_main .h_contact_info {
+    display: none; }
+  .footer_main .footer_top .f_hed .lets_link {
+    display: inline-block;
+    margin: 5px 0; } }
+
+@media (max-width: 375px) {
+  .demo {
+    padding-top: 60px; }
+    .demo .banner {
+      text-align: center; }
+      .demo .banner .banner_button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+  .banner .main_banner .banner_item .b_hed {
+    font-size: 42px; }
+  .demo .demos .demo_hed {
+    text-align: center;
+    margin-bottom: 20px; }
+  .banner .main_banner .banner_item {
+    text-align: center; }
+  .banner .main_banner .banner_item .banner_button a {
+    padding: 7px 12px; }
+  .demo .Project_hed {
+    font-size: 38px; }
+  .banner_button {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .demo .demos .demo_hed {
+    font-size: 30px; }
+  .demo .Project_hed {
+    margin-bottom: 40px; }
+  .footer_main .footer_top .banner_button a {
+    padding: 7px 12px; }
+  .footer_main .footer_top .f_hed {
+    font-size: 20px; }
+  .footer_main .footer_top .f_hed .lets_link {
+    position: relative;
+    font-size: 23px; }
+  .footer_main .footer_bottom .copy_pra {
+    font-size: 14px; } }
