@@ -1,6 +1,32 @@
 $(document).ready(function() {
   
+    
+  // banner slider //
+//   ! function (e) {
+//     "use strict";
+//         $('.main_banner').slick({
+//             dots: true,
+//             infinite: true,
+//             speed: 500,
+//             fade: true,
+//             cssEase: 'linear'
+//         });
+//     }(jQuery)
+//     // banner slider //
 
+    $('.banner_slider').slick({
+        speed: 1500,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        centerPadding: '0',
+        centerMode: false,
+        dots: false,
+        arrows: false,
+        infinite: true,
+      });
 
  var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
