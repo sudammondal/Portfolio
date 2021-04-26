@@ -59,16 +59,16 @@
             background-position: 0;
             transition: background 300ms ease-in-out;
             font-size: 18px; 
-          }
-            &:hover {
-               a{
-                background-position: 100%;
-                color: #ff9000;
-                background-color: #ffffff;
-                transition: .3s ease-in-out;
-               }
+                &:hover {
                 
+                    background-position: 100%;
+                    color: #ff9000;
+                    background-color: #ffffff;
+                    transition: .3s ease-in-out;
+                
+                    
 
+                }
             }
         }
     }
