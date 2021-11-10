@@ -17,12 +17,36 @@
     .header .nav_main .nav_collapse .nav_manu .nav-item .nav-link {
         margin: 0 17px;
     }
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 18px;
+                    margin-left: 53px;
+                    height: 333px;
+                    width: 333px;
+                }
+            }
+        }
+    }
 
- }
+}
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) { 
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 18px;
+                    margin-left: 53px;
+                    height: 240px;
+                    width: 240px;
+                }
+            }
+        }
+    }
 
- }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) { 
@@ -42,10 +66,37 @@
             margin-bottom: 30px;
         }
     }
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 15px;
+                    margin-left: 50px;
+                    height: 230px;
+                    width: 230px;
+                }
+            }
+        }
+    }
    
 
 }
 
+
+@media (max-width: 640px) { 
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 38px;
+                    margin-left: 65px;
+                    height: 370px;
+                    width: 370px;
+                }
+            }
+        }
+    }
+}
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) { 
 
@@ -58,8 +109,23 @@
         display: inline-block;
         margin: 5px 0;
     }
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 26px;
+                    margin-left: 56px;
+                    height: 270px;
+                    width: 270px;
+                }
+            }
+        }
+    }
 
 }
+
+
+
 
 @media (max-width: 375px) { 
     .demo {
@@ -139,6 +205,19 @@
         }
         
     }
+    .banner {
+        .main_banner {
+            .banner_img {
+                .img_man {
+                    margin-top: 22px;
+                    margin-left: 45px;
+                    height: 235px;
+                    width: 235px;
+                }
+            }
+        }
+    }
+
 
 }
 
