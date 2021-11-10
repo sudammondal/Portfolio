@@ -5,9 +5,10 @@
   padding: 0; }
 
 body {
-  background-image: -webkit-linear-gradient(60deg, #9c3d35ab 50%, transparent 50%);
-  background-image: -o-linear-gradient(60deg, #9c3d35ab 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #9c3d35ab 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(60deg, #e7e7e7a9 50%, transparent 50%);
+  background-image: -o-linear-gradient(60deg, #e7e7e7a9 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #e7e7e7a9 50%, transparent 50%);
+  background-color: #fff;
   background-color: #fff;
   font-size: 16px;
   line-height: 25px;
@@ -233,13 +234,12 @@ body {
     margin: 0 auto;
     display: inline-block;
     cursor: pointer;
-    overflow: hidden;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 6px;
     overflow: hidden;
-    -webkit-box-shadow: 0 11px 21px #bfc4d4;
-    box-shadow: 0 11px 21px #bfc4d4; }
+    -webkit-box-shadow: 0 11px 21px #00000045;
+    box-shadow: 0 11px 21px #00000045; }
     .demo .demo_min .demo_item a {
       display: block; }
       .demo .demo_min .demo_item a .demo_img {
@@ -346,10 +346,10 @@ body {
     .demoItem .ovErlay .overlay_header {
       text-align: center;
       background-color: #fff;
-      bottom: -40px;
+      bottom: -30px;
       left: 0;
       margin: 0 10px;
-      padding: 40px 0;
+      padding: 20px 0;
       position: absolute;
       right: 0;
       -webkit-transition: all 0.3s;
@@ -515,17 +515,21 @@ body {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center; }
-  .banner .main_banner .banner_item .b_hed {
-    font-size: 42px; }
+  .banner .main_banner .banner_item {
+    text-align: center; }
+    .banner .main_banner .banner_item .b_hed {
+      font-size: 42px; }
+    .banner .main_banner .banner_item .banner_button a {
+      padding: 7px 12px; }
   .demo .demos .demo_hed {
     text-align: center;
     margin-bottom: 20px; }
-  .banner .main_banner .banner_item {
-    text-align: center; }
-  .banner .main_banner .banner_item .banner_button a {
-    padding: 7px 12px; }
   .demo .Project_hed {
     font-size: 38px; }
+  .demo .demos .demo_hed {
+    font-size: 30px; }
+  .demo .Project_hed {
+    margin-bottom: 40px; }
   .banner_button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -533,16 +537,12 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  .demo .demos .demo_hed {
-    font-size: 30px; }
-  .demo .Project_hed {
-    margin-bottom: 40px; }
   .footer_main .footer_top .banner_button a {
     padding: 7px 12px; }
   .footer_main .footer_top .f_hed {
     font-size: 20px; }
-  .footer_main .footer_top .f_hed .lets_link {
-    position: relative;
-    font-size: 23px; }
+    .footer_main .footer_top .f_hed .lets_link {
+      position: relative;
+      font-size: 23px; }
   .footer_main .footer_bottom .copy_pra {
     font-size: 14px; } }

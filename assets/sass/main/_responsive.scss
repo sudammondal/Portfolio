@@ -72,47 +72,73 @@
             }
         } 
     }
-    .banner .main_banner .banner_item .b_hed {
-        font-size: 42px;
+    .banner {
+        .main_banner {
+            .banner_item {text-align: center;
+                .b_hed {
+                    font-size: 42px;
+                }
+                .banner_button {
+                    a {
+                        padding: 7px 12px;
+                    }
+                }
+            }
+        }
     }
-    .demo .demos .demo_hed {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .banner .main_banner .banner_item {
-        text-align: center;
-    }
-    .banner .main_banner .banner_item .banner_button a {
-        padding: 7px 12px;
-    }
-    .demo .Project_hed {
-        font-size: 38px; 
+    .demo {
+        .demos {
+            .demo_hed {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+   
+        .Project_hed {
+            font-size: 38px; 
+        }
+  
+        .demos {
+            .demo_hed {
+                font-size: 30px;
+            }
+        }
+ 
+        .Project_hed {
+            margin-bottom: 40px;
+        }
     }
     .banner_button {
         justify-content: center;
         display: flex;
     }
 
-    .demo .demos .demo_hed {
-        font-size: 30px;
+   
+    .footer_main {
+        .footer_top {
+            .banner_button {
+                a {
+                    padding: 7px 12px;
+                }
+            }
+   
+            .f_hed {
+                font-size: 20px; 
+                .lets_link {
+                    position: relative;
+                    font-size: 23px;
+            
+                }
+            }
+        }
+   
+        .footer_bottom {
+            .copy_pra {
+                font-size: 14px;
+            } 
+        }
+        
     }
-    .demo .Project_hed {
-        margin-bottom: 40px;
-    }
-    .footer_main .footer_top .banner_button a {
-        padding: 7px 12px;
-    }
-    .footer_main .footer_top .f_hed {
-        font-size: 20px; 
-    }
-    .footer_main .footer_top .f_hed .lets_link {
-        position: relative;
-        font-size: 23px;
-
-    }
-    .footer_main .footer_bottom .copy_pra {
-        font-size: 14px;
-    } 
 
 }
 
