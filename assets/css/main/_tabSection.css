@@ -1,0 +1,158 @@
+.tabSection {
+  padding-top: 60px; }
+  .tabSection .Project_hed {
+    color: #ff9000;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px; }
+  .tabSection .demos {
+    position: relative; }
+    .tabSection .demos .demo_hed {
+      font-size: 36px;
+      color: #454360;
+      font-family: "Rubik", sans-serif;
+      font-weight: 700;
+      margin-left: 14px;
+      margin-bottom: 58px; }
+    .tabSection .demos .dot_img {
+      position: absolute;
+      margin-bottom: -20px;
+      margin-left: -10px; }
+      .tabSection .demos .dot_img .dot_img {
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+  .tabSection .tabMain .tabInner nav .tabNav {
+    border: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .tabSection .tabMain .tabInner nav .tabNav .nav-link {
+      font-size: 36px;
+      color: #454360;
+      font-family: "Rubik", sans-serif;
+      font-weight: 700;
+      margin-left: 14px;
+      margin-bottom: 58px;
+      margin: 0 15px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 0; }
+      .tabSection .tabMain .tabInner nav .tabNav .nav-link:hover {
+        background-color: #ff900096; }
+      .tabSection .tabMain .tabInner nav .tabNav .nav-link.active {
+        background-color: #ff9000;
+        color: #fff; }
+  .tabSection .tabMain .tabInner .tabcontent .tabpane .demo {
+    padding-top: 8 0px; }
+    .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .Project_hed {
+      color: #ff9000;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 50px; }
+    .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demos {
+      position: relative; }
+      .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demos .demo_hed {
+        font-size: 36px;
+        color: #454360;
+        font-family: "Rubik", sans-serif;
+        font-weight: 700;
+        margin-left: 14px;
+        margin-bottom: 58px; }
+      .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demos .dot_img {
+        position: absolute;
+        margin-bottom: -20px;
+        margin-left: -10px; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demos .dot_img .dot_img {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+    .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item {
+      position: relative;
+      height: 300px;
+      width: 100%;
+      margin: 0 auto;
+      display: inline-block;
+      cursor: pointer;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      overflow: hidden;
+      -webkit-box-shadow: 0 11px 21px #00000045;
+      box-shadow: 0 11px 21px #00000045; }
+      .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a {
+        display: block; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .demo_img {
+          width: 100%;
+          cursor: pointer;
+          vertical-align: middle;
+          border-style: none;
+          background-image: url(../image/1-1-min.jpg);
+          display: inline-block;
+          background-position: center 0;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 300px;
+          left: 0;
+          margin: 0 auto;
+          right: 0;
+          -webkit-transition: all 5s;
+          -o-transition: all 5s;
+          transition: all 5s; }
+          .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .demo_img:hover {
+            background-position: center 100%; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .astute {
+          background-image: url(../image/demos/astute.jpg); }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .Canvas {
+          background-image: url(../image/demos/canvas.jpg); }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .landrick {
+          background-image: url(../image/demos/landrick.jpg); }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .multicart {
+          background-image: url(../image/demos/Multikart-Fashion.jpg); }
+    .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation {
+      margin: 20px 0;
+      margin-bottom: 0;
+      margin-top: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block; }
+      .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a {
+        display: inline-block;
+        padding: 0px;
+        font-size: 18px;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        text-decoration: none;
+        position: relative;
+        color: #454360;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Rubik", sans-serif; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a::before {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          right: 50%;
+          width: 0;
+          height: 2px;
+          background: #ff9000;
+          opacity: 0;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a.active, .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a:hover {
+          color: #eb1b2b; }
+          .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a.active::before, .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation a:hover::before {
+            width: 100%;
+            right: 0;
+            opacity: 1; }
+      .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation:hover {
+        background: transparent; }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation:hover a {
+          color: #ff9000; }
