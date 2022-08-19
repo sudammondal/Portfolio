@@ -1,32 +1,5 @@
 // XX-Large devices (larger desktops, 1400px and up)
-@media (max-width: 2560px) { 
-    .banner {
-        .main_banner {
-            .banner_img {
-                .img_man {
-                    margin-top: 36px;
-                    margin-left: 80px;
-                    height: 450px;
-                    width: 450px;
-                }
-            }
-        }
-    }
-
-}
-@media (max-width: 1920px) { 
-    .banner {
-        .main_banner {
-            .banner_img {
-                .img_man {
-                    margin-top: 47px;
-                    margin-left: 80px;
-                    height: 450px;
-                    width: 450px;
-                }
-            }
-        }
-    }
+@media (max-width: 1400px) { 
 
 }
 // X-Large devices (large desktops, 1200px and up)
