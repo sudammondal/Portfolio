@@ -547,6 +547,15 @@ body {
         .footer_main .footer_bottom .copy_pra a:hover::before {
           background-color: #fff; }
 
+@media (max-width: 1920px) {
+  .banner .main_banner .banner_img .img_man {
+    border: 1px solid #ff9000;
+    border-radius: 50%;
+    margin-top: 47px;
+    margin-left: 80px;
+    height: 450px;
+    width: 450px; } }
+
 @media (max-width: 1024px) {
   .header .nav_main .h_contact_info {
     margin-left: -10px; }
