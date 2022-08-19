@@ -292,7 +292,8 @@ body {
       .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a {
         display: block;
         /*====html img===*/
-        /*====webflow img===*/ }
+        /*====webflow img===*/
+        /*====clainte img===*/ }
         .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .demo_img {
           width: 100%;
           cursor: pointer;
@@ -336,6 +337,10 @@ body {
           background-image: url(../image/demos/HomePrayer.png); }
         .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .tastyc {
           background-image: url(../image/demos/Sudamwebflow-s.png); }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .moteco {
+          background-image: url(../image/demos/Moteco.png); }
+        .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a .houston {
+          background-image: url(../image/demos/About.png); }
     .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_condation {
       margin: 20px 0;
       margin-bottom: 0;
