@@ -18,7 +18,7 @@ $(document).ready(function() {
         speed: 1500,
         fade: true,
         cssEase: 'linear',
-        autoplay: true,
+        autoplay: false,
         slidesToScroll: 1,
         slidesToShow: 1,
         centerPadding: '0',
