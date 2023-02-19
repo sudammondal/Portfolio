@@ -6,8 +6,8 @@
 }
 
 body {
-  background-image: -o-linear-gradient(60deg, #f5f5f59f 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #f5f5f59f 50%, transparent 50%);
+  background-image: -o-linear-gradient(60deg, rgba(245, 245, 245, 0.6235294118) 50%, transparent 50%);
+  background-image: linear-gradient(30deg, rgba(245, 245, 245, 0.6235294118) 50%, transparent 50%);
   background-color: #fff;
   background-color: #fff;
   font-size: 16px;
@@ -204,9 +204,9 @@ body ul {
   padding: 10px 20px;
   color: #fff;
   letter-spacing: 0.05em;
-  border: 2px solid #ffc72ecb;
-  background-image: -o-linear-gradient(60deg, #aa453cab 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #aa453cab 50%, transparent 50%);
+  border: 2px solid rgba(255, 199, 46, 0.7960784314);
+  background-image: -o-linear-gradient(60deg, rgba(170, 69, 60, 0.6705882353) 50%, transparent 50%);
+  background-image: linear-gradient(30deg, rgba(170, 69, 60, 0.6705882353) 50%, transparent 50%);
   background-size: 540px;
   background-repeat: no-repeat;
   background-position: 0;
@@ -285,7 +285,7 @@ body ul {
   border-radius: 0;
 }
 .tabSection .tabMain .tabInner nav .tabNav .nav-link:hover {
-  background-color: #ff900096;
+  background-color: rgba(255, 144, 0, 0.5882352941);
 }
 .tabSection .tabMain .tabInner nav .tabNav .nav-link.active {
   background-color: #ff9000;
@@ -333,8 +333,8 @@ body ul {
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
-  -webkit-box-shadow: 0 11px 21px #00000045;
-          box-shadow: 0 11px 21px #00000045;
+  -webkit-box-shadow: 0 11px 21px rgba(0, 0, 0, 0.2705882353);
+          box-shadow: 0 11px 21px rgba(0, 0, 0, 0.2705882353);
 }
 .tabSection .tabMain .tabInner .tabcontent .tabpane .demo .demo_min .demo_item a {
   display: block;
@@ -483,7 +483,7 @@ body ul {
   top: 100%;
   left: 0;
   right: 0;
-  background-color: #ff214fd6;
+  background-color: rgba(255, 33, 79, 0.8392156863);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -600,8 +600,8 @@ body ul {
   color: #fff;
   letter-spacing: 0.05em;
   border: 2px solid #fcc730;
-  background-image: -o-linear-gradient(60deg, #9c3d35ab 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #9c3d35ab 50%, transparent 50%);
+  background-image: -o-linear-gradient(60deg, rgba(156, 61, 53, 0.6705882353) 50%, transparent 50%);
+  background-image: linear-gradient(30deg, rgba(156, 61, 53, 0.6705882353) 50%, transparent 50%);
   background-size: 540px;
   background-repeat: no-repeat;
   background-position: 0;
@@ -652,15 +652,12 @@ body ul {
   .header .nav_main .h_contact_info {
     margin-left: -10px;
   }
-
   .header .nav_main .h_contact_info .yourmail::before {
     margin-right: 0;
   }
-
   .header .nav_main .nav_collapse .nav_manu .nav-item .nav-link {
     margin: 0 17px;
   }
-
   .banner .main_banner .banner_img .img_man {
     margin-top: 18px;
     margin-left: 53px;
@@ -682,11 +679,9 @@ body ul {
     overflow: scroll;
     height: 150px;
   }
-
   .demo .demo_min {
     margin-bottom: 30px;
   }
-
   .banner .main_banner .banner_img .img_man {
     margin-top: 15px;
     margin-left: 50px;
@@ -706,12 +701,10 @@ body ul {
   .header .nav_main .h_contact_info {
     display: none;
   }
-
   .footer_main .footer_top .f_hed .lets_link {
     display: inline-block;
     margin: 5px 0;
   }
-
   .banner .main_banner .banner_img .img_man {
     margin-top: 26px;
     margin-left: 56px;
@@ -734,7 +727,6 @@ body ul {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .banner .main_banner .banner_item {
     text-align: center;
   }
@@ -744,7 +736,6 @@ body ul {
   .banner .main_banner .banner_item .banner_button a {
     padding: 7px 12px;
   }
-
   .demo .demos .demo_hed {
     text-align: center;
     margin-bottom: 20px;
@@ -758,7 +749,6 @@ body ul {
   .demo .Project_hed {
     margin-bottom: 40px;
   }
-
   .banner_button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -767,7 +757,6 @@ body ul {
     display: -ms-flexbox;
     display: flex;
   }
-
   .footer_main .footer_top .banner_button a {
     padding: 7px 12px;
   }
@@ -781,7 +770,6 @@ body ul {
   .footer_main .footer_bottom .copy_pra {
     font-size: 14px;
   }
-
   .banner .main_banner .banner_img .img_man {
     margin-top: 22px;
     margin-left: 45px;
