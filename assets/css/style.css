@@ -6,10 +6,8 @@
 }
 
 body {
-  background-image: -o-linear-gradient(60deg, rgba(245, 245, 245, 0.6235294118) 50%, transparent 50%);
-  background-image: linear-gradient(30deg, rgba(245, 245, 245, 0.6235294118) 50%, transparent 50%);
-  background-color: #fff;
-  background-color: #fff;
+  background-color: #23272f;
+  color: #ffffff;
   font-size: 16px;
   line-height: 25px;
   font-family: "Poppins", sans-serif;
@@ -28,14 +26,14 @@ body ul {
 
 .header {
   padding: 15px 30px;
-  background: #ffffff;
+  background: #23272f;
   position: fixed;
   top: -100px;
   left: 0;
   width: 100%;
   z-index: 1080;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
-          box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.06);
+          box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.06);
   width: 100%;
   display: block;
   -webkit-transition: top 0.3s;
@@ -60,14 +58,14 @@ body ul {
   margin-left: 25px;
 }
 .header .nav_main .h_contact_info a {
-  color: #101010;
+  color: #ffffff;
 }
 .header .nav_main .h_contact_info .yourmail::before {
   position: relative;
   top: 3px;
   content: "/";
   font-family: "FontAwesome";
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.534);
   margin-right: 25px;
   font-size: 23px;
   font-weight: 800;
@@ -127,7 +125,7 @@ body ul {
   line-height: 30px;
   position: relative;
   letter-spacing: 1.3px;
-  color: #101010;
+  color: #ffffff;
   font-size: 13px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -274,7 +272,7 @@ body ul {
 }
 .tabSection .tabMain .tabInner nav .tabNav .nav-link {
   font-size: 36px;
-  color: #454360;
+  color: #ffffff;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin-left: 14px;
@@ -289,7 +287,7 @@ body ul {
 }
 .tabSection .tabMain .tabInner nav .tabNav .nav-link.active {
   background-color: #ff9000;
-  color: #fff;
+  color: #23272f;
 }
 .tabSection .tabMain .tabInner .tabcontent .tabpane .demo {
   padding-top: 80px;
@@ -422,7 +420,7 @@ body ul {
   transition: 0.5s;
   text-decoration: none;
   position: relative;
-  color: #454360;
+  color: #ffffff;
   font-weight: 700;
   text-transform: capitalize;
   font-family: "Rubik", sans-serif;

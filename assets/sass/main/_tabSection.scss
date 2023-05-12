@@ -38,7 +38,7 @@
                     justify-content: center;
                     .nav-link {
                         font-size: 36px;
-                        color: #454360;
+                        color: #ffffff;
                         font-family: "Rubik", sans-serif;
                         font-weight: 700;
                         margin-left: 14px; 
@@ -52,7 +52,7 @@
                         }
                         &.active {
                             background-color: #ff9000;
-                            color: #fff;
+                            color: #23272f;
                         }
                     }
                 }
@@ -187,7 +187,8 @@
                                     transition: .5s;
                                     text-decoration: none;
                                     position: relative;
-                                    color: #454360;
+                                    // color: #454360;
+                                    color: #ffffff;
                                     font-weight: 700;
                                     text-transform: capitalize;
                                     font-family: "Rubik", sans-serif;

@@ -1,12 +1,12 @@
 .header {
     padding: 15px 30px;
-    background: #ffffff;
+    background: #23272f;
     position: fixed;
     top: -100px;
     left: 0;
     width: 100%;
     z-index: 1080;
-    box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.06);
     width: 100%;
     display: block;
     transition: top 0.3s;
@@ -28,7 +28,7 @@
             letter-spacing: 1.3px;
             margin-left: 25px;
             a{
-               color: #101010; 
+               color: #ffffff; 
             }
             .yourmail {
                 &::before {
@@ -36,7 +36,7 @@
                     top: 3px;
                     content: "/";
                     font-family: "FontAwesome";
-                    color: rgba(255, 255, 255, 0.4);
+                    color: rgba(255, 255, 255, 0.534);
                     margin-right: 25px;
                     font-size: 23px;
                     font-weight: 800;
@@ -101,7 +101,7 @@
                         line-height: 30px;
                         position: relative;
                         letter-spacing: 1.3px;
-                        color: #101010;
+                        color: #ffffff;
                         font-size: 13px;
                         text-transform: uppercase;
                         margin: 0 20px;
